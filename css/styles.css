@@ -1,0 +1,89 @@
+body{
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  background-color: #41444b;
+  font-family: Oswald;
+  padding: 1% 7%;
+  position: relative;
+}
+
+.logo-icon{
+  color: #fddb3a;
+  padding-right: 2px;
+  position: relative;
+}
+
+.navbar-brand{
+  font-family: "Barlow Semi Condensed";
+  font-size: 4rem;
+  color: #fddb3a;
+  letter-spacing: 7px;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+.social-list{
+  list-style-type: none;
+}
+
+.social-icon{
+  color: #fddb3a;
+  padding-bottom: 5px;
+}
+
+.social-icon:hover{
+  color: #f6f4e6;
+}
+
+.nav-link{
+  color: #fddb3a;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.nav-item{
+
+}
+
+.navbar-toggler{
+  color: blue;
+  background-color: #fddb3a;
+}
+
+.dropdown-item{
+  background-color: #41444b;
+  color: #fddb3a;
+  font-size: 1.25rem;
+}
+
+.dropdown-menu{
+  background-color: #41444b;
+}
+
+.form-inline {
+  margin-right: 40px;
+  background-color: #fddb3a;
+}
+
+.form-control{
+  background-color: #fddb3a;
+  border-color: #fddb3a;
+}
+.form-control:enabled{
+  background-color: #fddb3a;
+}
+
+.search-icon {
+  background-color: #fddb3a;
+}
+
+
+/* Title Page */
+.title{
+  background-color: #blue;
+  height:200px;
+}
