@@ -6,15 +6,23 @@ body{
 
 .navbar{
   background-color: #41444b;
-  font-family: Oswald;
+  font-family: "Oswald";
   padding: 1% 7%;
   position: relative;
+}
+
+.fixed-top{
+  position: fixed;
 }
 
 .logo-icon{
   color: #fddb3a;
   padding-right: 2px;
   position: relative;
+}
+
+.nav-link:hover{
+  color: #f6f4e6;
 }
 
 .navbar-brand{
@@ -24,7 +32,14 @@ body{
   letter-spacing: 7px;
   margin-bottom: 7px;
   position: relative;
+  text-align: center;
 }
+
+.navbar-brand:hover{
+  color: #f6f4e6;
+}
+
+
 
 .social-list{
   list-style-type: none;
@@ -83,7 +98,128 @@ body{
 
 
 /* Title Page */
-.title{
-  background-color: #blue;
-  height:200px;
+.dark-title{
+  height: 600px;
+  background-color: #52575d;
+  font-family: "Oswald";
+  color: #f6f4e6;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.quote{
+  position: relative;
+  top:250px;
+  padding: 40px 100px 75px;
+}
+
+.light-title{
+  height:600px;
+  background-color: #f6f4e6;
+}
+
+.main{
+  position: relative;
+  top: 260px;
+  height: 600px;
+  width: 66%;
+  padding: 0;
+  z-index: 1;
+}
+
+
+.row{
+  height: 200px;
+  border-style: solid;
+  border: 1px;
+  border-color: black;
+}
+
+
+
+
+.row-animate:hover{
+  transition: transform 0.5s;
+  transform: scale(1.05);
+}
+
+.right{
+  background-color: #fddb3a;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+
+
+}
+
+.left{
+  background-color: #fddb3a;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+/* Article Section */
+
+ #article-section{
+   height: 1200px;
+   background-color: #52575d;
+   font-family: "Oswald";
+   color: #f6f4e6;
+ }
+
+.main-article{
+  position: relative;
+  top: 10%;
+
+}
+
+.main-article-img{
+  width: auto;
+  height: 600px;
+  background-color: red;
+  text-align: center;
+}
+
+
+.other-article-img{
+
+  top:120px;
+  height: 100px;
+  width: auto;
+  background-color: red;
+  margin: 7% auto;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.bottom-left-main{
+  background-color: #52575d;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  font-size: 1.25rem;
+  padding-right: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.bottom-left-other{
+  background-color: #52575d;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  font-size: 1.25rem;
+  padding-right: 50px;
+  padding-top: 10px;
+  text-align: center;
+
 }
